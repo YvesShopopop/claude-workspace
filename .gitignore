@@ -1,0 +1,20 @@
+# Outputs & livrables générés
+outputs/
+
+# Fichiers Office générés
+*.xlsx
+*.docx
+*.pptx
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
