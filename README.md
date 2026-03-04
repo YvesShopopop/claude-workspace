@@ -16,6 +16,16 @@ workspace/
 └── outputs/        # Livrables générés (non versionnés)
 ```
 
+## Instructions pour Claude
+
+**En début de chaque session, lire obligatoirement les fichiers de contexte suivants avant toute chose :**
+- `.context/shopopop.md` — vocabulaire, parties prenantes, règles terminologiques
+- `.context/produit.md` — contexte produit
+- `.context/equipe.md` — composition de l'équipe
+- `.context/destinataire.md` — profil du destinataire
+
+Ces fichiers font foi. En cas de doute sur un terme ou un concept, s'y référer.
+
 ## Usage
 
 - **Contexte** : renseigner les fichiers `.context/` pour que Claude ait une base de connaissance sur Shopopop

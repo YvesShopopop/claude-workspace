@@ -1,50 +1,50 @@
 # Skill : Rédaction de User Stories
 
 ## Description
-Rédige des User Stories claires, bien structurées et prêtes pour le backlog, en suivant les standards de Shopopop.
-
-## Format standard
-
-### Structure d'une US
-```
-En tant que [persona],
-Je veux [action/fonctionnalité],
-Afin de [bénéfice/valeur].
-```
-
-### Critères d'acceptance
-- Format Given / When / Then (Gherkin) ou liste de conditions vérifiables
-- Chaque critère doit être testable
-- Couvrir les cas nominaux ET les cas d'erreur
-
-### Informations complémentaires à inclure
-- **Titre** : court et descriptif
-- **Epic / Feature** : rattachement dans la roadmap
-- **Priorité** : MoSCoW (Must / Should / Could / Won't)
-- **Story points** : estimation si demandée
-- **Dépendances** : autres US liées
-- **Notes techniques** : contraintes ou précisions pour les devs
+Rédige des User Stories claires et bien structurées, en suivant le template et les standards de Shopopop.
 
 ## Instructions pour Claude
 
-1. Lire le fichier `.context/produit.md` pour le contexte produit si disponible
-2. Si le besoin est flou, poser des questions avant de rédiger
-3. Proposer systématiquement plusieurs critères d'acceptance
-4. Signaler si l'US semble trop large (candidat au découpage)
-5. Adapter le vocabulaire au glossaire Shopopop
+**Avant toute rédaction**, lire obligatoirement :
+- `.context/shopopop.md` — vocabulaire et parties prenantes (⚠️ "cotransporteur", pas "shopper")
+- `.context/produit.md` — contexte produit
+- `.context/destinataire.md` — profil du destinataire
+
+## Template
+
+```
+**Titre :** [Titre court et descriptif]
+**Epic :** [Lien vers l'epic Jira]
+
+**Contexte**
+[Description brève du contexte]
+
+**Besoin**
+[Ce qui est attendu. Les règles métier constituent l'essentiel de cette section.]
+```
+
+## Règles
+
+1. Le titre doit être court et descriptif
+2. Le lien vers l'epic est obligatoire
+3. Le contexte est bref — il pose le cadre, pas plus
+4. Le besoin contient les règles métier claires, rédigées en langage naturel
+5. Pas de critères d'acceptance dans l'US — ils doivent découler naturellement des règles métier
+6. Les dépendances entre tickets ("is blocked by", "blocks"...) sont gérées via les liens Jira, pas dans le corps de l'US
+7. Si le besoin est flou, poser des questions avant de rédiger
+8. Respecter strictement le vocabulaire de `shopopop.md`
 
 ## Exemple
 
-**Titre** : Notification de disponibilité d'un créneau
+**Titre :** Notification de disponibilité d'un créneau
+**Epic :** [RECI-XXX](https://shopopop.atlassian.net/browse/RECI-XXX)
 
-En tant que shopper,
-Je veux recevoir une notification quand un créneau de livraison se libère dans ma zone,
-Afin de ne pas rater des opportunités de mission.
+**Contexte**
+Les cotransporteurs ratent parfois des opportunités de mission faute de visibilité sur les créneaux qui se libèrent dans leur zone.
 
-**Critères d'acceptance :**
-- Given je suis inscrit aux notifications pour la zone X
-- When un créneau se libère dans cette zone
-- Then je reçois une notification push dans les 5 minutes
-- And la notification contient le créneau, la zone et la rémunération estimée
-- Given je n'ai pas activé les notifications
-- Then je ne reçois aucune notification
+**Besoin**
+Lorsqu'un créneau de livraison se libère dans une zone surveillée par un cotransporteur, celui-ci doit être notifié rapidement pour pouvoir s'en saisir.
+- Un cotransporteur ne reçoit des notifications que s'il s'est inscrit pour la zone concernée.
+- La notification doit être envoyée dans les 5 minutes suivant la libération du créneau.
+- Elle doit contenir les informations essentielles : créneau, zone, rémunération estimée.
+- Un cotransporteur qui n'a pas activé les notifications ne reçoit rien.
