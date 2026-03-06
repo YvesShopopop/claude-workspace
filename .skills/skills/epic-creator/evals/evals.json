@@ -1,0 +1,113 @@
+{
+  "skill_name": "epic-creator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Je veux créer une epic sur les notifications push pour les destinataires. Je veux qu'ils reçoivent des notifications pour les informer de l'avancement de leur livraison.",
+      "expected_output": "L'epic doit être créée dans Jira (RECI). La description doit contenir : une section Problème observé distincte de la Solution (ce qui manque actuellement), des KPIs mesurables (pas juste 'améliorer les notifs'), une section Solution distincte du Problème. Le skill doit avoir posé des questions pour remonter au problème réel avant de parler features.",
+      "assertions": [
+        {
+          "name": "section-probleme-presente",
+          "description": "L'epic contient une section 🔍 Problème observé",
+          "type": "contains",
+          "value": "Problème observé"
+        },
+        {
+          "name": "section-kpi-presente",
+          "description": "L'epic contient une section 🎯 Objectifs & KPIs",
+          "type": "contains",
+          "value": "Objectifs & KPIs"
+        },
+        {
+          "name": "section-solution-presente",
+          "description": "L'epic contient une section 🎨 Solution envisagée",
+          "type": "contains",
+          "value": "Solution envisagée"
+        },
+        {
+          "name": "kpi-chiffre",
+          "description": "Au moins un KPI contient un chiffre ou un pourcentage (signe que les KPIs sont quantifiés)",
+          "type": "regex",
+          "value": "\\d+[%°pts]|→|cible"
+        },
+        {
+          "name": "creation-jira",
+          "description": "L'epic a été créée dans Jira (lien RECI- présent dans la réponse)",
+          "type": "regex",
+          "value": "RECI-\\d+"
+        }
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "J'ai besoin de créer une epic. Voici le contexte : on reçoit beaucoup de contacts SAV de destinataires qui disent ne pas avoir été livrés alors que le cotransporteur a marqué la livraison comme effectuée. On estime que ça représente environ 8% des livraisons. Ça coûte cher en SAV et ça dégrade la confiance dans le service. L'objectif est de réduire ce taux de litiges à moins de 3% d'ici fin Q3 et de diminuer le volume de contacts SAV de 30%. On pense que la solution passe par une preuve de livraison (photo du colis devant la porte) obligatoire pour les cotransporteurs.",
+      "expected_output": "L'epic doit valoriser les données chiffrées fournies (8% de litiges, objectif 3%, -30% SAV). Le problème observé doit être distinct de la solution. Les KPIs doivent reprendre les chiffres fournis. La solution doit mentionner la preuve de livraison. L'epic doit être créée dans Jira.",
+      "assertions": [
+        {
+          "name": "chiffre-8-pourcent",
+          "description": "Le problème mentionne le taux de 8% fourni par l'utilisateur",
+          "type": "contains",
+          "value": "8%"
+        },
+        {
+          "name": "kpi-objectif-3-pourcent",
+          "description": "Les KPIs mentionnent l'objectif de 3% ou de réduction de litiges",
+          "type": "regex",
+          "value": "3%|litige|SAV.*30|30.*SAV"
+        },
+        {
+          "name": "section-probleme-presente",
+          "description": "L'epic contient une section 🔍 Problème observé",
+          "type": "contains",
+          "value": "Problème observé"
+        },
+        {
+          "name": "preuve-livraison-dans-solution",
+          "description": "La section Solution mentionne la preuve de livraison",
+          "type": "regex",
+          "value": "preuve|photo|livraison"
+        },
+        {
+          "name": "creation-jira",
+          "description": "L'epic a été créée dans Jira (lien RECI- présent)",
+          "type": "regex",
+          "value": "RECI-\\d+"
+        }
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Je veux faire une epic pour refondre la page de suivi de commande. Actuellement elle est moche et les destinataires ne savent pas où en est leur livraison. Je voudrais ajouter une carte avec la position du cotransporteur en temps réel, une timeline des étapes, et des notifications.",
+      "expected_output": "Le skill doit détecter que la demande est solution-oriented et recentrer sur le problème réel. La section Problème observé doit aller au-delà de 'la page est moche' pour capturer la frustration réelle du destinataire. Le skill doit avoir demandé des données concrètes sur le problème (ex: taux de contacts SAV pour manque de suivi, NPS lié au suivi). Les KPIs doivent être mesurables.",
+      "assertions": [
+        {
+          "name": "section-probleme-depasse-le-visuel",
+          "description": "Le problème va au-delà du simple 'page moche' et parle d'impact business ou UX mesurable",
+          "type": "regex",
+          "value": "SAV|NPS|satisfaction|confiance|abandon|contact|frustrat"
+        },
+        {
+          "name": "section-kpi-presente",
+          "description": "L'epic contient une section 🎯 Objectifs & KPIs",
+          "type": "contains",
+          "value": "Objectifs & KPIs"
+        },
+        {
+          "name": "solution-apres-probleme",
+          "description": "La section Solution envisagée apparaît après la section Problème dans le document",
+          "type": "order",
+          "value": ["Problème observé", "Solution envisagée"]
+        },
+        {
+          "name": "creation-jira",
+          "description": "L'epic a été créée dans Jira (lien RECI- présent)",
+          "type": "regex",
+          "value": "RECI-\\d+"
+        }
+      ],
+      "files": []
+    }
+  ]
+}
