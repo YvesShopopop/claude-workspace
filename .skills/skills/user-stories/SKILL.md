@@ -1,3 +1,8 @@
+---
+name: user-stories
+description: Rédige des User Stories (US) claires et bien structurées selon le template et les standards Shopopop. Utilise ce skill dès que l'utilisateur demande à rédiger, créer, écrire ou générer une US, une user story, un ticket fonctionnel, ou formule des besoins métier à structurer en US. Utilise aussi ce skill si l'utilisateur mentionne une epic Jira et veut la décomposer en tickets.
+---
+
 # Skill : Rédaction de User Stories
 
 ## Description
