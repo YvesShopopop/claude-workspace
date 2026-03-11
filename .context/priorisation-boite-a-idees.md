@@ -1,6 +1,6 @@
 # Priorisation — Boîte à idées Destinataire
 
-**Fichier de travail :** `claude_workspace/priorisation-destinataire-Q2-2026.xlsx`
+**Fichier de travail :** `claude_workspace/outputs/priorisation-destinataire-Q2-2026.xlsx`
 **Source Notion :** https://www.notion.so/shopopop/Destinataires-bo-te-id-es-2ea2c5c7981680bdaf81cd44d9379014
 **Dernière mise à jour :** 11 mars 2026
 
