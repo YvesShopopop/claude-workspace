@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "skill_name": "product-news",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-03-18T16:07:58Z",
+    "evals_run": [
+      1,
+      2,
+      3
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 4,
+        "failed": 0,
+        "total": 4,
+        "time_seconds": 22.0,
+        "tokens": 85931,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "has_probleme_solution_labels",
+          "passed": true,
+          "evidence": "Output contains **Probl\u00e8me :** and **Solution :** labels explicitly"
+        },
+        {
+          "text": "has_fr_and_en_versions",
+          "passed": true,
+          "evidence": "Starts with FR flag, includes EN version"
+        },
+        {
+          "text": "has_audience_tag",
+          "passed": true,
+          "evidence": "Title contains [Destinataires]"
+        },
+        {
+          "text": "no_changelog_header",
+          "passed": true,
+          "evidence": "No heavy header, clean Slack-friendly format"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 4,
+        "failed": 0,
+        "total": 4,
+        "time_seconds": 35.1,
+        "tokens": 86935,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "has_probleme_solution_labels",
+          "passed": true,
+          "evidence": "All 3 features have explicit Probl\u00e8me/Solution labels"
+        },
+        {
+          "text": "has_fr_and_en_versions",
+          "passed": true,
+          "evidence": "Clear FR/EN separation with emoji flags"
+        },
+        {
+          "text": "has_audience_tag",
+          "passed": true,
+          "evidence": "Title contains [APP]"
+        },
+        {
+          "text": "jargon_translated",
+          "passed": true,
+          "evidence": "Firebase -> notifications en moins de 500ms, deep linking explained in user terms"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 4,
+        "failed": 0,
+        "total": 4,
+        "time_seconds": 26.9,
+        "tokens": 86177,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "has_probleme_solution_labels",
+          "passed": true,
+          "evidence": "Both CTP and Destinataires messages have Probl\u00e8me/Solution labels"
+        },
+        {
+          "text": "has_fr_and_en_versions",
+          "passed": true,
+          "evidence": "FR in main block, EN in comment block"
+        },
+        {
+          "text": "no_stakeholder_language",
+          "passed": true,
+          "evidence": "No corporate language, focused on user impact"
+        },
+        {
+          "text": "user_impact_framing",
+          "passed": true,
+          "evidence": "Centered on CTP and recipient experience"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.25,
+        "passed": 1,
+        "failed": 3,
+        "total": 4,
+        "time_seconds": 14.4,
+        "tokens": 83659,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "has_probleme_solution_labels",
+          "passed": false,
+          "evidence": "Uses 'Probl\u00e8me r\u00e9solu' / 'Nouvelle solution' headers, not the inline format"
+        },
+        {
+          "text": "has_fr_and_en_versions",
+          "passed": true,
+          "evidence": "Has FRANCAIS and ENGLISH sections"
+        },
+        {
+          "text": "has_audience_tag",
+          "passed": false,
+          "evidence": "No [Destinataires] tag in title"
+        },
+        {
+          "text": "no_changelog_header",
+          "passed": false,
+          "evidence": "Starts with PRODUCT NEWS - 18 MARS 2026 and uses separators"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.25,
+        "passed": 1,
+        "failed": 3,
+        "total": 4,
+        "time_seconds": 12.9,
+        "tokens": 83775,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "has_probleme_solution_labels",
+          "passed": false,
+          "evidence": "No explicit Probl\u00e8me/Solution labels"
+        },
+        {
+          "text": "has_fr_and_en_versions",
+          "passed": true,
+          "evidence": "Has FRANCAIS and ENGLISH sections"
+        },
+        {
+          "text": "has_audience_tag",
+          "passed": false,
+          "evidence": "No [APP] bracketed tag in title"
+        },
+        {
+          "text": "jargon_translated",
+          "passed": false,
+          "evidence": "Mentions Firebase v2 and deep linking without translating to user benefit"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.25,
+        "passed": 1,
+        "failed": 3,
+        "total": 4,
+        "time_seconds": 12.0,
+        "tokens": 83759,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "has_probleme_solution_labels",
+          "passed": false,
+          "evidence": "Uses checkmark bullets instead of Probleme/Solution structure"
+        },
+        {
+          "text": "has_fr_and_en_versions",
+          "passed": true,
+          "evidence": "Has FR and EN sections"
+        },
+        {
+          "text": "no_stakeholder_language",
+          "passed": false,
+          "evidence": "Contains stakeholders, grand merci a l equipe, Big thanks to the entire team"
+        },
+        {
+          "text": "user_impact_framing",
+          "passed": false,
+          "evidence": "Corporate memo style with Benefices bullet list"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 28.0,
+        "stddev": 6.6189,
+        "min": 22.0,
+        "max": 35.1
+      },
+      "tokens": {
+        "mean": 86347.6667,
+        "stddev": 523.3062,
+        "min": 85931,
+        "max": 86935
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.25,
+        "stddev": 0.0,
+        "min": 0.25,
+        "max": 0.25
+      },
+      "time_seconds": {
+        "mean": 13.1,
+        "stddev": 1.2124,
+        "min": 12.0,
+        "max": 14.4
+      },
+      "tokens": {
+        "mean": 83731.0,
+        "stddev": 62.8649,
+        "min": 83659,
+        "max": 83775
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.75",
+      "time_seconds": "+14.9",
+      "tokens": "+2617"
+    }
+  },
+  "notes": []
+}

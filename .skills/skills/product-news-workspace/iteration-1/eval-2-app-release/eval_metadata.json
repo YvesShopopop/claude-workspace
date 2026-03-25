@@ -1,0 +1,6 @@
+{
+  "eval_id": 2,
+  "eval_name": "app-release",
+  "prompt": "Prépare la com' Slack pour la release APP 6.16.0 qu'on déploie aujourd'hui. Voilà ce qui est dedans :\n- Refonte de l'écran home du CTP : on a redesigné la homepage avec une nouvelle architecture de l'information. Les missions du jour sont mises en avant, le solde de la cagnotte est visible directement, et on a ajouté un widget météo pour aider à la préparation des tournées.\n- Notifications push améliorées : on a migré de Firebase legacy vers Firebase v2, ce qui réduit la latence des notifs de 3s à <500ms en moyenne. On a aussi ajouté le deep linking pour que cliquer sur une notif ouvre directement le bon écran.\n- Fix crash Android : correction d'un crash qui touchait les devices Android 12 avec plus de 50 missions en historique.",
+  "assertions": []
+}

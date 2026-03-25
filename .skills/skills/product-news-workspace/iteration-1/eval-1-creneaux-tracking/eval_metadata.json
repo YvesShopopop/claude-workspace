@@ -1,0 +1,6 @@
+{
+  "eval_id": 1,
+  "eval_name": "creneaux-tracking",
+  "prompt": "Je dois écrire le product-news pour la feature qu'on vient de livrer ce matin. Audience : [Destinataires]. Le problème : quand Robopop décale automatiquement une livraison, le destinataire recevait un lien dans un email pour choisir un nouveau créneau, mais ce lien l'emmenait sur une page séparée et beaucoup de destinataires ne finissaient pas le processus. La solution : on a intégré le choix du nouveau créneau directement dans la page de tracking, sans avoir à quitter la page. C'est disponible depuis ce matin.",
+  "assertions": []
+}

@@ -18,6 +18,10 @@ workspace/
 
 ## Instructions pour Claude
 
+**Fichiers temporaires** : utiliser `/tmp/` pour tout fichier intermédiaire (packages exportés, archives, fichiers de travail transitoires). Ne jamais écrire de fichiers temporaires dans ce workspace.
+
+**Fichiers HTML générés** (reviews, rapports, visualisations) : les sauvegarder dans `outputs/html/`.
+
 **En début de chaque session, lire obligatoirement les fichiers de contexte suivants avant toute chose :**
 - `.context/shopopop.md` — vocabulaire, parties prenantes, règles terminologiques
 - `.context/produit.md` — contexte produit

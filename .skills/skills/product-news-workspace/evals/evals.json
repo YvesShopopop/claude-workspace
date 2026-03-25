@@ -1,0 +1,74 @@
+{
+  "skill_name": "product-news",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Je dois écrire le product-news pour la feature qu'on vient de livrer ce matin. Audience : [Destinataires]. Le problème : quand Robopop décale automatiquement une livraison, le destinataire recevait un lien dans un email pour choisir un nouveau créneau, mais ce lien l'emmenait sur une page séparée et beaucoup de destinataires ne finissaient pas le processus. La solution : on a intégré le choix du nouveau créneau directement dans la page de tracking, sans avoir à quitter la page. C'est disponible depuis ce matin.",
+      "expected_output": "Un message Slack FR formaté avec [Destinataires] en titre, emoji, bloc Problème/Solution concis, puis une version EN prête à coller en commentaire",
+      "assertions": [
+        {
+          "name": "has_probleme_solution_labels",
+          "description": "Le message contient les labels explicites 'Problème :' et 'Solution :'"
+        },
+        {
+          "name": "has_fr_and_en_versions",
+          "description": "Le message contient une version FR (🇫🇷) et une version EN (🇬🇧)"
+        },
+        {
+          "name": "has_audience_tag",
+          "description": "Le message contient le tag [Destinataires] dans le titre"
+        },
+        {
+          "name": "no_changelog_header",
+          "description": "Le message n'a pas de header lourd type 'PRODUCT NEWS - DATE' ou séparateurs de style rapport"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Prépare la com' Slack pour la release APP 6.16.0 qu'on déploie aujourd'hui. Voilà ce qui est dedans :\n- Refonte de l'écran home du CTP : on a redesigné la homepage avec une nouvelle architecture de l'information. Les missions du jour sont mises en avant, le solde de la cagnotte est visible directement, et on a ajouté un widget météo pour aider à la préparation des tournées.\n- Notifications push améliorées : on a migré de Firebase legacy vers Firebase v2, ce qui réduit la latence des notifs de 3s à <500ms en moyenne. On a aussi ajouté le deep linking pour que cliquer sur une notif ouvre directement le bon écran.\n- Fix crash Android : correction d'un crash qui touchait les devices Android 12 avec plus de 50 missions en historique.",
+      "expected_output": "Un message Slack FR pour [APP] avec plusieurs features traduites en langage métier (pas technique), emoji par feature, structure Problème/Solution, puis version EN",
+      "assertions": [
+        {
+          "name": "has_probleme_solution_labels",
+          "description": "Le message contient des labels explicites 'Problème :' et 'Solution :' pour chaque feature"
+        },
+        {
+          "name": "has_fr_and_en_versions",
+          "description": "Le message contient une version FR (🇫🇷) et une version EN (🇬🇧)"
+        },
+        {
+          "name": "has_audience_tag",
+          "description": "Le message contient le tag [APP] dans le titre"
+        },
+        {
+          "name": "jargon_translated",
+          "description": "Les termes purement techniques (Firebase, deep linking, Android 12) sont soit traduits en impact métier, soit accompagnés d'une explication accessible"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Je veux écrire la com' pour la feature de validation de livraison par code OTP qu'on a livrée pour les destinataires. Contexte : aujourd'hui la validation se fait par le CTP en cliquant 'livré' dans l'app. Le problème c'est qu'on a des cas de fraude où des CTP valident la livraison sans vraiment avoir livré. La solution : on ajoute un code à 4 chiffres visible sur la page de tracking du destinataire, que le CTP doit saisir dans l'app pour valider la livraison. Le destinataire valide donc implicitement en communiquant le code.",
+      "expected_output": "Message Slack FR [Destinataires] et/ou [APP] avec Problème/Solution centré sur l'impact utilisateur, version EN en commentaire",
+      "assertions": [
+        {
+          "name": "has_probleme_solution_labels",
+          "description": "Le message contient les labels explicites 'Problème :' et 'Solution :'"
+        },
+        {
+          "name": "has_fr_and_en_versions",
+          "description": "Le message contient une version FR (🇫🇷) et une version EN (🇬🇧)"
+        },
+        {
+          "name": "no_stakeholder_language",
+          "description": "Le message n'utilise pas de langage corporate type 'stakeholders', 'grand merci à l'équipe', 'big thanks'"
+        },
+        {
+          "name": "user_impact_framing",
+          "description": "Le message est centré sur l'impact pour l'utilisateur final (destinataire / CTP), pas sur l'implémentation technique"
+        }
+      ]
+    }
+  ]
+}

@@ -80,6 +80,10 @@ Y a-t-il des liens avec d'autres epics, équipes, systèmes ou API tiers ?
 - Références Jira (ex: RECI-XXX), dépendances inter-équipes, APIs...
 - Si rien à dire, cette section sera omise.
 
+**Q8 — Trimestre**
+Dans quel trimestre cette epic est-elle prévue ? (ex: 26Q1, 26Q2, 26Q3, 26Q4)
+- Obligatoire sauf si l'epic est mise en statut "Parking lot"
+
 ---
 
 ### Étape 2 — Génération du draft
@@ -145,8 +149,15 @@ Une fois le draft validé, crée l'epic avec le tool `createJiraIssue` :
 - **issueTypeName** : `Epic`
 - **summary** : titre de l'epic
 - **description** : contenu complet en Markdown (sections 🧩🔍🎯🎨🚀🔗)
+- **additional_fields** : `{"components": [{"id": "10496"}], "customfield_10700": {"id": "<id_trimestre>"}}`
+  - IDs des trimestres : `26Q1` → `10573`, `26Q2` → `10574`, `26Q3` → `10575`
+  - Composant par défaut : `Recipient UI` (id `10496`). Adapter si le sujet concerne une autre couche (ex: `Recipient API` → `10298`, `Partner API` → `10497`).
 
 Après création, partage le lien Jira : `https://shopopop.atlassian.net/browse/[clé]`
+
+Si l'epic a été créée à partir d'une opportunité Notion, mettre à jour l'opportunité avec `notion-update-page` :
+- **Statut** → `Initiative`
+- **Epic Jira** → URL de l'epic (ex: `https://shopopop.atlassian.net/browse/RECI-XXX`)
 
 ---
 

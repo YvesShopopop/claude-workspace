@@ -1,0 +1,6 @@
+{
+  "eval_id": 3,
+  "eval_name": "otp-validation",
+  "prompt": "Je veux écrire la com' pour la feature de validation de livraison par code OTP qu'on a livrée pour les destinataires. Contexte : aujourd'hui la validation se fait par le CTP en cliquant 'livré' dans l'app. Le problème c'est qu'on a des cas de fraude où des CTP valident la livraison sans vraiment avoir livré. La solution : on ajoute un code à 4 chiffres visible sur la page de tracking du destinataire, que le CTP doit saisir dans l'app pour valider la livraison. Le destinataire valide donc implicitement en communiquant le code.",
+  "assertions": []
+}
