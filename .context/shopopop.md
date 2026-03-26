@@ -39,3 +39,15 @@ Shopopop facture l'enseigne **à la livraison effectuée**.
 | **Cotransporteur** | Particulier qui effectue la livraison sur son trajet |
 | **Enseigne** | Retailer / magasin, client direct de Shopopop |
 | **Partenaire API** | Intégrateur technique faisant le pont entre Shopopop et l'enseigne dans certains cas |
+
+## Communication Slack — règles de formatage
+
+Slack utilise un format Markdown spécifique, **différent du Markdown standard** :
+
+| Effet | Slack | Markdown standard |
+|---|---|---|
+| **Gras** | `*texte*` | `**texte**` |
+| _Italique_ | `_texte_` | `*texte*` |
+| ~~Barré~~ | `~texte~` | `~~texte~~` |
+
+> ⚠️ Toujours utiliser `*texte*` (astérisque simple) pour le gras dans les messages Slack générés. L'usage de `**texte**` (double astérisque) affiche les astérisques tels quels dans Slack au lieu de mettre en gras.
