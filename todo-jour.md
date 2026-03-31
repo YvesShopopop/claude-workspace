@@ -1,19 +1,12 @@
-# 🎯 Objectifs du jour — Lundi 30 mars 2026
+# 🎯 Objectifs du jour — Mardi 31 mars 2026
 
 ## ⏳ Non atteints hier — à statuer
-<!-- En début de journée, Claude liste les objectifs de la veille restés en suspens. -->
-<!-- Pour chaque item, Claude pose la question à Yves avec 3 choix : -->
-<!-- 1. Garder dans les tâches du jour -->
-<!-- 2. Déplacer dans todo-plus-tard.md -->
-<!-- 3. Supprimer -->
 
 _Aucun objectif en suspens._
 
 ---
 
 ## 🔔 Rappels "Plus tard"
-<!-- Items de todo-plus-tard.md arrivant à échéance aujourd'hui ou dépassés. -->
-<!-- Claude les affiche ici automatiquement lors de la préparation de la liste du jour. -->
 
 _Aucun rappel pour aujourd'hui._
 
@@ -21,10 +14,12 @@ _Aucun rappel pour aujourd'hui._
 
 ## ✅ Objectifs du jour
 
-- [x] Étudier les différentes solutions pour les comptes destinataires
-- [ ] Faire un point sur les comptes destinataires avec Sophie
-- [x] Analyser les motifs de contact Zendesk des destinataires (toutes données disponibles)
-- [ ] Créer une opportunité : afficher au destinataire une information quand Shopopop a pris en charge la gestion d'une difficulté sur sa livraison
+- [x] Planifier un nouvel affinage sur les comptes destinataires
+- [x] Clarifier l'organisation pendant les congés de Pierre
+- [x] ~~Rédiger une tâche ou US pour pouvoir récupérer de la data sur les instructions à la livraison~~ → Capturé comme opportunité Notion
+- [ ] Réunion sur les cookies : définir un plan d'action clair
+- [ ] Nouvelle opportunité ? Choix du créneau dans certains cas métier : surprise, cas LM...
+- [x] Lister les sujets destinataires en lien avec le mobile
 
 ---
 

@@ -6,7 +6,7 @@
 
 | Sujet | Date cible | Notes | Statut |
 |-------|-----------|-------|--------|
-| _(exemple) Lire le rapport sur X_ | 2026-04-01 | _Envoyé par Sophie_ | 🟡 En attente |
+| Préparer mes objectifs 2026 | 2026-04-03 | | 🟡 En attente |
 | Vérifier que la validation manuelle est bien systématisée sur les nouvelles features | 2026-04-10 | Action issue de la rétro | 🟡 En attente |
 | Rapprocher les données Zendesk des données de livraisons | | Croiser contacts destinataires avec volume et statuts de livraisons pour calculer taux de contact par livraison | 🟡 En attente |
 
