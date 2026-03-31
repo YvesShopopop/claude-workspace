@@ -6,8 +6,13 @@
 
 | Sujet | Date cible | Notes | Statut |
 |-------|-----------|-------|--------|
+| Lister les sujets potentiels pour Q3 en vue du point avec Matthieu | 2026-04-01 | | 🟡 En attente |
+| Actions sur les cookies avec Jess | 2026-04-02 | Suite réunion cookies | 🟡 En attente |
+| Tester le plugin Productivity d'Anthropic | 2026-04-03 | https://shopopopteam.slack.com/archives/C04RLM29U94/p1774961893518479 | 🟡 En attente |
 | Préparer mes objectifs 2026 | 2026-04-03 | | 🟡 En attente |
 | Vérifier que la validation manuelle est bien systématisée sur les nouvelles features | 2026-04-10 | Action issue de la rétro | 🟡 En attente |
 | Rapprocher les données Zendesk des données de livraisons | | Croiser contacts destinataires avec volume et statuts de livraisons pour calculer taux de contact par livraison | 🟡 En attente |
+| Préparer un pitch sur les sujets desti | 2026-04-07 | | 🟡 En attente |
+| Sujets en cours ou sujets priorisés (ex : SDD, analyse des données...) | 2026-04-07 | | 🟡 En attente |
 
 <!-- Statuts possibles : 🟡 En attente | 🔴 Urgent | ✅ Traité | 🗑️ Abandonné -->
