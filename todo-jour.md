@@ -1,25 +1,24 @@
-# 🎯 Objectifs du jour — Mardi 31 mars 2026
+# 🎯 Objectifs du jour — Mercredi 1er avril 2026
 
 ## ⏳ Non atteints hier — à statuer
 
-_Aucun objectif en suspens._
+- [x] ~~Nouvelle opportunité ? Choix du créneau dans certains cas métier : surprise, cas LM...~~ → Capturé comme opportunité Notion
 
 ---
 
 ## 🔔 Rappels "Plus tard"
 
-_Aucun rappel pour aujourd'hui._
+- [ ] Lister les sujets potentiels pour Q3 en vue du point avec Matthieu
 
 ---
 
 ## ✅ Objectifs du jour
 
-- [x] Planifier un nouvel affinage sur les comptes destinataires
-- [x] Clarifier l'organisation pendant les congés de Pierre
-- [x] ~~Rédiger une tâche ou US pour pouvoir récupérer de la data sur les instructions à la livraison~~ → Capturé comme opportunité Notion
-- [x] Réunion sur les cookies : définir un plan d'action clair
-- [ ] Nouvelle opportunité ? Choix du créneau dans certains cas métier : surprise, cas LM...
-- [x] Lister les sujets destinataires en lien avec le mobile
+- [x] Voir si je dois préparer quelque chose pour le point Business x Produit
+- [x] Faire le point avec Valentin (et Sophie) sur le signalement
+- [x] Quel est le temps de validité du token de tracking ?
+- [ ] Gérer les com' dans l'epic de signalement : com' au desti pour dire que le signalement a été pris en compte, puis com' pour donner la décision du SC
+- [x] Créer une card dans le board UX Notion pour RECI-386 (CO2 évitées au destinataire)
 
 ---
 

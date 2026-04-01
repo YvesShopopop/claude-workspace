@@ -12,7 +12,9 @@
 | Préparer mes objectifs 2026 | 2026-04-03 | | 🟡 En attente |
 | Vérifier que la validation manuelle est bien systématisée sur les nouvelles features | 2026-04-10 | Action issue de la rétro | 🟡 En attente |
 | Rapprocher les données Zendesk des données de livraisons | | Croiser contacts destinataires avec volume et statuts de livraisons pour calculer taux de contact par livraison | 🟡 En attente |
+| Gérer les cas particulièrement problématiques pour les destinataires (nombreux décalages) | | | 🟡 En attente |
+| Préparer le point sur les objectifs avec des données chiffrées | 2026-04-08 | | 🟡 En attente |
 | Préparer un pitch sur les sujets desti | 2026-04-07 | | 🟡 En attente |
-| Sujets en cours ou sujets priorisés (ex : SDD, analyse des données...) | 2026-04-07 | | 🟡 En attente |
+| Sujets en cours autres que sujets priorisés (ex : SDD, analyse des données...) | 2026-04-07 | | 🟡 En attente |
 
 <!-- Statuts possibles : 🟡 En attente | 🔴 Urgent | ✅ Traité | 🗑️ Abandonné -->

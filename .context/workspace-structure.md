@@ -42,3 +42,5 @@ Les fichiers de skills installés (dans `.claude/skills/`) sont en **lecture seu
 - Ne pas créer de fichiers `.skill` à la racine (format obsolète)
 - Ne pas laisser de fichiers lock (`.~lock.*`)
 - Ne pas créer de dossiers `scripts/` sans contenu prévu
+- Ne jamais affirmer qu'une action est impossible via une API sans avoir essayé : tester d'abord avec l'outil disponible. Exemple : modifier une formule Notion est possible via `notion-update-data-source`, contrairement à ce qui avait été affirmé à tort.
+- Ne pas créer de nouveaux fichiers de contexte sans avoir d'abord vérifié que `.context/` n'en contient pas déjà un approprié (`find /sessions/.../mnt -name "*.md"`).
