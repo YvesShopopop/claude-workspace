@@ -1,24 +1,24 @@
-# 🎯 Objectifs du jour — Mercredi 1er avril 2026
+# 🎯 Objectifs du jour — Jeudi 2 avril 2026
 
 ## ⏳ Non atteints hier — à statuer
 
-- [x] ~~Nouvelle opportunité ? Choix du créneau dans certains cas métier : surprise, cas LM...~~ → Capturé comme opportunité Notion
+- [ ] Gérer les com' dans l'epic de signalement : com' au desti pour dire que le signalement a été pris en compte, puis com' pour donner la décision du SC
 
 ---
 
 ## 🔔 Rappels "Plus tard"
 
-- [ ] Lister les sujets potentiels pour Q3 en vue du point avec Matthieu
+- [ ] Actions sur les cookies avec Jess (suite réunion cookies)
 
 ---
 
 ## ✅ Objectifs du jour
 
-- [x] Voir si je dois préparer quelque chose pour le point Business x Produit
-- [x] Faire le point avec Valentin (et Sophie) sur le signalement
-- [x] Quel est le temps de validité du token de tracking ?
-- [ ] Gérer les com' dans l'epic de signalement : com' au desti pour dire que le signalement a été pris en compte, puis com' pour donner la décision du SC
-- [x] Créer une card dans le board UX Notion pour RECI-386 (CO2 évitées au destinataire)
+- [x] 1. Gérer les com' dans l'epic de signalement : com' au desti pour dire que le signalement a été pris en compte, puis com' pour donner la décision du SC
+- [x] 2. Arbitrer le choix du mode d'inscription au compte destinataire
+- [x] 3. Actions sur les cookies avec Jess (suite réunion cookies)
+- [x] 4. Reprendre les US du compte destinataire suite à l'affinage
+- [ ] 5. Connexion à partir d'une page de tracking avec un autre numéro de téléphone
 
 ---
 
