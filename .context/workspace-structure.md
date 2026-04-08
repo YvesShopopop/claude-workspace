@@ -37,6 +37,20 @@ Les fichiers de skills installés (dans `.claude/skills/`) sont en **lecture seu
 
 > ⚠️ Ne jamais essayer d'éditer directement un fichier dans `.claude/skills/` — c'est en lecture seule et ça échouera systématiquement.
 
+## Règles comportementales pour les skills (overrides permanents)
+
+Ces règles s'appliquent **en priorité** sur les instructions des skills, dès le démarrage de chaque session.
+
+### Skill `daily-todo` — commande `!todo`
+
+Avant toute chose quand `!todo` est invoqué :
+1. Lire `todo-jour.md` et extraire la date du titre (ex. `# 🎯 Objectifs du jour — Jeudi 2 avril 2026`)
+2. Comparer avec la date du jour (via bash `date`)
+3. **Si la date n'est pas aujourd'hui** → lancer directement la routine matinale pour créer la todo du jour, SANS afficher l'état de la veille ni proposer de cocher des items
+4. **Si la date est bien aujourd'hui** → afficher normalement l'état actuel
+
+---
+
 ## Ce qu'il ne faut pas faire
 
 - Ne pas créer de fichiers `.skill` à la racine (format obsolète)

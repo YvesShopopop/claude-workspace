@@ -1,24 +1,26 @@
-# 🎯 Objectifs du jour — Jeudi 2 avril 2026
+# 🎯 Objectifs du jour — Mercredi 8 avril 2026
 
 ## ⏳ Non atteints hier — à statuer
 
-- [ ] Gérer les com' dans l'epic de signalement : com' au desti pour dire que le signalement a été pris en compte, puis com' pour donner la décision du SC
+- [ ] 1. Préparer mes objectifs 2026 → reporté dans les objectifs du jour
+- [ ] 6. Informer Matthieu et Emilie suite à la réu avec Mathilde → reporté dans les objectifs du jour
 
 ---
 
 ## 🔔 Rappels "Plus tard"
 
-- [ ] Actions sur les cookies avec Jess (suite réunion cookies)
+- [ ] Préparer les sujets destinataires avec des données chiffrées → intégré dans les objectifs du jour
 
 ---
 
 ## ✅ Objectifs du jour
 
-- [x] 1. Gérer les com' dans l'epic de signalement : com' au desti pour dire que le signalement a été pris en compte, puis com' pour donner la décision du SC
-- [x] 2. Arbitrer le choix du mode d'inscription au compte destinataire
-- [x] 3. Actions sur les cookies avec Jess (suite réunion cookies)
-- [x] 4. Reprendre les US du compte destinataire suite à l'affinage
-- [ ] 5. Connexion à partir d'une page de tracking avec un autre numéro de téléphone
+- [x] 1. Préparer mes objectifs 2026
+- [x] 2. Informer Matthieu et Emilie suite à la réu avec Mathilde
+- [x] 3. Préparer les sujets destinataires avec des données chiffrées
+- [x] 4. Caler une session SDD avec Yoann
+- [ ] 5. Cookies : c'est quoi la suite ?
+- [ ] 6. Points sur les sujets destinataires pour la commu, voir slack Mégane
 
 ---
 
