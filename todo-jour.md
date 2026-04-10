@@ -1,26 +1,27 @@
-# 🎯 Objectifs du jour — Mercredi 8 avril 2026
+# 🎯 Objectifs du jour — Vendredi 10 avril 2026
 
 ## ⏳ Non atteints hier — à statuer
 
-- [ ] 1. Préparer mes objectifs 2026 → reporté dans les objectifs du jour
-- [ ] 6. Informer Matthieu et Emilie suite à la réu avec Mathilde → reporté dans les objectifs du jour
+- Cookies : c'est quoi la suite ? → reporté aujourd'hui
+- Review des maquettes d'inscription au compte destinataire → reporté aujourd'hui
+- Décliner les objectifs en actions concrètes avec jalons → reporté aujourd'hui
 
 ---
 
 ## 🔔 Rappels "Plus tard"
 
-- [ ] Préparer les sujets destinataires avec des données chiffrées → intégré dans les objectifs du jour
+- Test du MCP Qlik avec le board destinataires (échéance aujourd'hui)
+- Préparer le sprint planning (échéance aujourd'hui)
 
 ---
 
 ## ✅ Objectifs du jour
 
-- [x] 1. Préparer mes objectifs 2026
-- [x] 2. Informer Matthieu et Emilie suite à la réu avec Mathilde
-- [x] 3. Préparer les sujets destinataires avec des données chiffrées
-- [x] 4. Caler une session SDD avec Yoann
-- [ ] 5. Cookies : c'est quoi la suite ?
-- [ ] 6. Points sur les sujets destinataires pour la commu, voir slack Mégane
+- [ ] 1. Cookies : c'est quoi la suite ?
+- [x] 2. Review des maquettes d'inscription au compte destinataire
+- [x] 3. Décliner les objectifs en actions concrètes avec jalons
+- [ ] 4. Test du MCP Qlik avec le board destinataires
+- [x] 5. Préparer le sprint planning
 
 ---
 
