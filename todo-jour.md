@@ -20,7 +20,7 @@
 - [ ] 1. Cookies : c'est quoi la suite ?
 - [x] 2. Review des maquettes d'inscription au compte destinataire
 - [x] 3. Décliner les objectifs en actions concrètes avec jalons
-- [ ] 4. Test du MCP Qlik avec le board destinataires
+- [x] 4. Test du MCP Qlik avec le board destinataires
 - [x] 5. Préparer le sprint planning
 
 ---

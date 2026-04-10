@@ -16,5 +16,6 @@
 | Objectifs : point de mi-trimestre | 2026-05-13 | Vérifier l'avancement des obljectifs à cocher fin Q2 | 🟡 En attente |
 | Objectifs : connaître le nb de tickets Destinataires | 2026-04-14 | Demander à Valentine pendant notre point | 🟡 En attente |
 | Définir les sujets principaux pour Q3 et Q4 | 2026-04-17 | Commencer des discovery si possible | 🟡 En attente |
+| Prez Desti pour le support | 2026-04-13 | | 🟡 En attente |
 
 <!-- Statuts possibles : 🟡 En attente | 🔴 Urgent | ✅ Traité | 🗑️ Abandonné -->
