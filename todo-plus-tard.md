@@ -11,5 +11,6 @@
 | Prépa questions sur vision Produit / Desti | 2026-04-22 | | 🟡 En attente |
 | Objectifs : point de mi-trimestre | 2026-05-13 | Vérifier l'avancement des objectifs à cocher fin Q2 | 🟡 En attente |
 | Prépa entretien mi-carrière | 2026-05-22 | | 🟡 En attente |
+| Voir Laurent concernant l'expertise technique Braze | 2026-05-22 | | 🟡 En attente |
 
 <!-- Statuts possibles : 🟡 En attente | 🔴 Urgent | ✅ Traité | 🗑️ Abandonné -->

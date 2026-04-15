@@ -40,6 +40,20 @@ Shopopop facture l'enseigne **à la livraison effectuée**.
 | **Enseigne** | Retailer / magasin, client direct de Shopopop |
 | **Partenaire API** | Intégrateur technique faisant le pont entre Shopopop et l'enseigne dans certains cas |
 
+## Charte graphique — Couleurs
+
+À utiliser pour les présentations, visuels et schémas Shopopop. Chaque couleur existe en 2 tons (normal / sombre).
+
+| Couleur | Ton normal | Ton sombre | Usage |
+|---|---|---|---|
+| **Violet** | `#4500ff` | `#3b00d9` | Couleur principale — éléments forts, boîtes, CTA |
+| **Coral** | `#f16c67` | `#e35c56` | Couleur principale — accents, numérotation, highlights |
+| **Pêche** | `#ffdabe` | `#ffcda7` | Couleur secondaire |
+| **Teal** | `#92ddd6` | `#22bfac` | Couleur secondaire — contexte, mémoire, feedback |
+| **Jaune** | `#ffd40c` | `#f1c80a` | Couleur secondaire |
+
+> ⚠️ Utiliser **principalement le violet et le coral**. Les autres couleurs sont des accents.
+
 ## Communication Slack — règles de formatage
 
 Slack utilise un format Markdown spécifique, **différent du Markdown standard** :
