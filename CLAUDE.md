@@ -23,11 +23,17 @@ Ne jamais démarrer une tâche sans avoir chargé ce contexte. Si un fichier est
 Les fichiers de skills installés par Cowork (dans `.claude/skills/`) sont **en lecture seule**. Toute tentative d'édition directe échouera systématiquement.
 
 **Procédure obligatoire pour modifier un skill :**
+
+Avant de commencer, lancer le nettoyage des `.skill` obsolètes :
+```bash
+bash claude_workspace/tmp/cleanup-skills.sh
+```
+
 1. `cp -r /path/to/skill /tmp/skill-name` — copier dans `/tmp/`
 2. `chmod u+w /tmp/skill-name/SKILL.md` — rendre modifiable
 3. Éditer `/tmp/skill-name/SKILL.md`
 4. `cp -r /path/to/skill-creator /tmp/skill-creator && chmod -R u+w /tmp/skill-creator`
 5. `cd /tmp/skill-creator && python -m scripts.package_skill /tmp/skill-name` — packager
-6. Copier le `.skill` généré dans `claude_workspace/` pour que Yves puisse le réinstaller via Cowork
+6. Déplacer le `.skill` généré dans **`claude_workspace/tmp/`** pour que Yves puisse le réinstaller via Cowork
 
 Ne jamais essayer d'éditer directement un fichier dans `.claude/skills/` — cela échouera et fait perdre du temps à Yves.

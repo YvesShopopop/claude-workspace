@@ -11,6 +11,8 @@ claude_workspace/
 │   └── (autres fichiers : .md, .xlsx, .pptx, .docx, .pdf…)
 ├── wip/               # Travaux en cours / brouillons non finalisés
 ├── data/              # Données brutes (CSV, exports…)
+├── tmp/               # Fichiers temporaires : .skill en attente d'installation, scripts intermédiaires
+│   └── cleanup-skills.sh  # Script de nettoyage automatique des .skill obsolètes
 ├── .gitignore
 └── README.md
 ```
@@ -21,19 +23,25 @@ claude_workspace/
 - **Fichiers HTML** (roadmaps, dashboards, KPIs, visualisations) → `outputs/html/`
 - **Brouillons / WIP** (documents en cours, epics non finalisées) → `wip/`
 - **Données brutes** (CSV, exports Jira/Metabase) → `data/`
-- **Skills** → `.skills/skills/` uniquement (ne jamais créer de fichiers `.skill` à la racine)
+- **Fichiers `.skill` temporaires** → `tmp/` uniquement (jamais à la racine ni ailleurs)
 - **Ne rien créer à la racine** en dehors des fichiers de configuration (`.gitignore`, `README.md`)
 
 ## Modification des skills — procédure obligatoire
 
 Les fichiers de skills installés (dans `.claude/skills/`) sont en **lecture seule**. Toute tentative de modification directe échouera. Il faut toujours passer par cette procédure :
 
+**Avant de commencer**, exécuter le script de nettoyage :
+```bash
+bash claude_workspace/tmp/cleanup-skills.sh
+```
+Cela supprime les `.skill` temporaires déjà installés (skill installé plus récent que le fichier `.skill`).
+
 1. Copier le skill dans `/tmp/` : `cp -r /path/to/skill /tmp/skill-name`
 2. Rendre le fichier modifiable : `chmod u+w /tmp/skill-name/SKILL.md`
 3. Éditer `/tmp/skill-name/SKILL.md`
 4. Copier le skill-creator dans `/tmp/` (lui aussi en lecture seule) : `cp -r /path/to/skill-creator /tmp/skill-creator && chmod -R u+w /tmp/skill-creator`
 5. Packager depuis `/tmp/skill-creator` : `cd /tmp/skill-creator && python -m scripts.package_skill /tmp/skill-name`
-6. Déplacer le `.skill` généré dans `claude_workspace/` pour que l'utilisateur puisse l'installer
+6. Déplacer le `.skill` généré dans **`claude_workspace/tmp/`** (pas à la racine) pour que l'utilisateur puisse l'installer
 
 > ⚠️ Ne jamais essayer d'éditer directement un fichier dans `.claude/skills/` — c'est en lecture seule et ça échouera systématiquement.
 

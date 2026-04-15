@@ -1,27 +1,25 @@
-# 🎯 Objectifs du jour — Vendredi 10 avril 2026
+# 🎯 Objectifs du jour — Mercredi 15 avril 2026
 
 ## ⏳ Non atteints hier — à statuer
 
-- Cookies : c'est quoi la suite ? → reporté aujourd'hui
-- Review des maquettes d'inscription au compte destinataire → reporté aujourd'hui
-- Décliner les objectifs en actions concrètes avec jalons → reporté aujourd'hui
+_Aucun objectif en suspens._
 
 ---
 
 ## 🔔 Rappels "Plus tard"
 
-- Test du MCP Qlik avec le board destinataires (échéance aujourd'hui)
-- Préparer le sprint planning (échéance aujourd'hui)
+- Ajouter les instructions dans la prez desti — échéance aujourd'hui
+- Préparer une prez SDD pour le produit — échéance aujourd'hui
+- Lire CGU et politique de confidentialité — reporté depuis hier
 
 ---
 
 ## ✅ Objectifs du jour
 
-- [ ] 1. Cookies : c'est quoi la suite ?
-- [x] 2. Review des maquettes d'inscription au compte destinataire
-- [x] 3. Décliner les objectifs en actions concrètes avec jalons
-- [x] 4. Test du MCP Qlik avec le board destinataires
-- [x] 5. Préparer le sprint planning
+- [x] 1. Ajouter les instructions dans la prez desti
+- [ ] 2. Préparer une prez SDD pour le produit
+- [ ] 3. Lire CGU et politique de confidentialité
+- [ ] 4. Ticket cookies + ajout dans le board UX
 
 ---
 
