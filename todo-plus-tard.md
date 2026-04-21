@@ -6,11 +6,12 @@
 
 | Sujet | Date cible | Notes | Statut |
 |-------|-----------|-------|--------|
-| Tester le plugin Productivity d'Anthropic | 2026-04-17 | Reporté depuis le 3 avril | 🟡 En attente |
-| Définir les sujets principaux pour Q3 et Q4 | 2026-04-17 | Commencer des discovery si possible | 🟡 En attente |
 | Prépa questions sur vision Produit / Desti | 2026-04-22 | | 🟡 En attente |
+| Voir Laurent concernant l'expertise technique Braze | 2026-04-22 | | 🟡 En attente |
+| Tester le plugin Productivity d'Anthropic | 2026-04-24 | | 🟡 En attente |
+| Mettre à jour les prévisions Q2 avec les dernières estimations | 2026-04-24 | | 🟡 En attente |
+| Générer la doc utilisateur | 2026-04-24 | | 🟡 En attente |
 | Objectifs : point de mi-trimestre | 2026-05-13 | Vérifier l'avancement des objectifs à cocher fin Q2 | 🟡 En attente |
 | Prépa entretien mi-carrière | 2026-05-22 | | 🟡 En attente |
-| Voir Laurent concernant l'expertise technique Braze | 2026-05-22 | | 🟡 En attente |
 
 <!-- Statuts possibles : 🟡 En attente | 🔴 Urgent | ✅ Traité | 🗑️ Abandonné -->

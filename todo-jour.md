@@ -1,25 +1,22 @@
-# 🎯 Objectifs du jour — Mercredi 15 avril 2026
+# 🎯 Objectifs du jour — Mardi 21 avril 2026
 
 ## ⏳ Non atteints hier — à statuer
 
-_Aucun objectif en suspens._
+- Aucun objectif en suspens.
 
 ---
 
 ## 🔔 Rappels "Plus tard"
 
-- Ajouter les instructions dans la prez desti — échéance aujourd'hui
-- Préparer une prez SDD pour le produit — échéance aujourd'hui
-- Lire CGU et politique de confidentialité — reporté depuis hier
+- CTP favoris : partie dispatch (Voir JM)
 
 ---
 
 ## ✅ Objectifs du jour
 
-- [x] 1. Ajouter les instructions dans la prez desti
-- [ ] 2. Préparer une prez SDD pour le produit
-- [ ] 3. Lire CGU et politique de confidentialité
-- [ ] 4. Ticket cookies + ajout dans le board UX
+- [ ] 1. CTP favoris : partie dispatch
+- [ ] 2. Définir les sujets principaux pour Q3 et Q4
+- [ ] 3. Voir Valentin pour le lien de tracking dans le BO interne
 
 ---
 
