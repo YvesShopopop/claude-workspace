@@ -1,4 +1,4 @@
-# 🎯 Objectifs du jour — Mardi 21 avril 2026
+# 🎯 Objectifs du jour — Mercredi 22 avril 2026
 
 ## ⏳ Non atteints hier — à statuer
 
@@ -8,15 +8,15 @@
 
 ## 🔔 Rappels "Plus tard"
 
-- CTP favoris : partie dispatch (Voir JM)
+- Voir Laurent concernant l'expertise technique Braze
 
 ---
 
 ## ✅ Objectifs du jour
 
-- [ ] 1. CTP favoris : partie dispatch
-- [ ] 2. Définir les sujets principaux pour Q3 et Q4
-- [ ] 3. Voir Valentin pour le lien de tracking dans le BO interne
+- [x] 1. CTP favoris : partie dispatch
+- [x] 2. Définir les sujets principaux pour Q3 et Q4
+- [x] 3. Voir Laurent concernant l'expertise technique Braze
 
 ---
 

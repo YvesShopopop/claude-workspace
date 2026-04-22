@@ -1,15 +1,22 @@
-# Notes rapides — 2026-04-14
+# Notes rapides — 2026-04-22
 
-Content Cards et langue
+Data Desti 
 
-Dans le BO Pro, la langue du texte affiché dans la banner card est liée au drive du destinataire (langue dans Braze)
--> donc pas forcément la même langue que dans le reste de la page
+Objectif de baisse des contacts SC : 
+- sur quels indicateurs se base cet objectif ?
+- baisse par rapport à l'année précédente : quelles sont les valeurs de référence ?
 
-Idéalement
-Il faudrait que le texte de la card soit dans la même langue que le reste de la page
+Données connues pour T1 2025 
++ variabilité au cours de l'année connue
 
-Pour faire vite
-N'afficher les content cards que si la page est en Français
+Février 2025 : 
+- total : 11 938
+- appels sortants : 7029
+- appels entrants : 1748
+- chat : 2577
+- email : 590
+(total entrant : 4915)
 
-Après
-Voir pour les autres langues -> nouveau point à caler
+Mars 2026 : 7800
+
+Attention : comparer plutôt des ratios (/ nb de livraisons, /nb de décalages)
