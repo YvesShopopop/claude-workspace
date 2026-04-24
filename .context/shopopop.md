@@ -1,5 +1,23 @@
 # Shopopop
 
+## Mission stratégique
+
+> Consolider un modèle rentable et scalable en France et en Europe, en renforçant la proposition de valeur, en maîtrisant strictement le **coût-servi** et en accélérant la différenciation technologique et réglementaire.
+
+*Source : Shopopoint décembre 2025*
+
+**Coût-servi** : coût total réellement engagé par Shopopop pour délivrer une commande conforme au destinataire.
+
+## Chantiers stratégiques 2026
+
+*Source : Shopopoint décembre 2025*
+
+1. Réduire le risque réglementaire
+2. Fidéliser nos clients
+3. Trouver de nouveaux clients
+4. L'IA dans l'entreprise
+5. Faire parler de nous
+
 ## Présentation générale
 
 Shopopop est un service de mise en relation entre des **destinataires** (personnes souhaitant se faire livrer une commande) et des **cotransporteurs** (particuliers qui prennent en charge cette livraison sur leur trajet).

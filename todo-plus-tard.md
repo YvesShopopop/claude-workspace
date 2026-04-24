@@ -6,10 +6,6 @@
 
 | Sujet | Date cible | Notes | Statut |
 |-------|-----------|-------|--------|
-| Etoffer le dashboard KPI Desti | 2026-04-23 | | 🟡 En attente |
-| Prépa questions sur vision Produit / Desti | 2026-04-24 | | 🟡 En attente |
-| Tester le plugin Productivity d'Anthropic | 2026-04-24 | | 🟡 En attente |
-| Générer la doc utilisateur | 2026-04-24 | | 🟡 En attente |
 | Mettre à jour les prévisions Q2 avec les dernières estimations | 2026-04-29 | | 🟡 En attente |
 | Définir les sujets principaux pour Q3 et Q4 | 2026-04-30 | Suite au point sur la vision produit | 🟡 En attente |
 | Objectifs : point de mi-trimestre | 2026-05-13 | Vérifier l'avancement des objectifs à cocher fin Q2 | 🟡 En attente |

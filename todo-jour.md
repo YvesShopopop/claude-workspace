@@ -1,22 +1,24 @@
-# 🎯 Objectifs du jour — Mercredi 22 avril 2026
+# 🎯 Objectifs du jour — Vendredi 24 avril 2026
 
 ## ⏳ Non atteints hier — à statuer
 
-- Aucun objectif en suspens.
+_Aucun objectif en suspens._
 
 ---
 
 ## 🔔 Rappels "Plus tard"
 
-- Voir Laurent concernant l'expertise technique Braze
+- Prépa questions sur vision Produit / Desti (échu 2026-04-24)
+- Tester le plugin Productivity d'Anthropic (échu 2026-04-24)
+- Générer la doc utilisateur (échu 2026-04-24)
 
 ---
 
 ## ✅ Objectifs du jour
 
-- [x] 1. CTP favoris : partie dispatch
-- [x] 2. Définir les sujets principaux pour Q3 et Q4
-- [x] 3. Voir Laurent concernant l'expertise technique Braze
+- [x] 1. Prépa questions sur vision Produit / Desti
+- [x] 2. Tester le plugin Productivity d'Anthropic
+- [ ] 3. Générer la doc utilisateur
 
 ---
 

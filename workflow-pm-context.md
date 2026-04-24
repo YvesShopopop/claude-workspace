@@ -64,10 +64,18 @@ Construire un workflow complet couvrant les tâches PM de Yves, inspiré du Spec
 
 ---
 
-### Étape 5 — Documentation
+### Étape 5 — Documentation ✅ COMPLÈTE
 **Input :** US validées
-**Output :** page Notion de doc feature
-**Skill :** à créer
+**Output :** page Notion de documentation feature (espace Documentation Produit Destinataire)
+**Skill :** `doc-notion-produit` ✅ créé, testé et installé
+
+**Page Notion parente :** https://www.notion.so/shopopop/Documentation-Produit-Destinataire-34c2c5c79816810398c3e01d5fb38b03
+
+**Features couvertes :** tracking, reprogrammation, notation, notifications, compte
+
+**Public cible :** agents service client, commerciaux, CSM
+
+**Suivi des écarts specs :** `claude_workspace/outputs/doc-ecarts.md`
 
 ---
 
@@ -86,14 +94,13 @@ Construire un workflow complet couvrant les tâches PM de Yves, inspiré du Spec
 | 2 — Epic Jira | — | ✅ epic-creator |
 | 3 — Spécification | — | ✅ user-stories |
 | 4 — Review fonctionnelle | — | ⏳ à créer |
-| 5 — Documentation | — | ⏳ à créer |
+| 5 — Documentation | ✅ Notion Documentation Produit Destinataire | ✅ doc-notion-produit |
 | 6 — Communication | — | ✅ product-news |
 
 ## Prochaines étapes suggérées
 
 ### Workflow PM — Skills manquants
-Créer les skills pour les étapes 4 et 5 (review fonctionnelle et documentation).
-Yves a indiqué vouloir commencer par l'une ou l'autre — à confirmer en début de session.
+Créer le skill pour l'étape 4 (review fonctionnelle). L'étape 5 (documentation) est désormais couverte.
 
 ### Gestion du planning des epics (à traiter)
 La timeline Jira se base sur des champs date (start date / due date). Ces champs devraient être synchronisés avec les infos de planification de l'epic :

@@ -1,0 +1,16 @@
+{
+  "months": {
+    "2026-03": {
+      "inbound": 2997,
+      "outbound": 0,
+      "fetched_at": "2026-04-23",
+      "complete": true
+    },
+    "2026-04": {
+      "inbound": 6224,
+      "outbound": 0,
+      "fetched_at": "2026-04-23",
+      "complete": false
+    }
+  }
+}

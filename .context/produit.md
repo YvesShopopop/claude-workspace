@@ -4,23 +4,38 @@
 
 > Orchestrer intelligemment une logistique du dernier kilomètre basée sur l'existant, en connectant la demande de livraison des enseignes avec la capacité réelle des citoyens à livrer, au bon moment et au bon endroit.
 
-La plateforme Shopopop existe pour réconcilier trois réalités :
-- Le dernier kilomètre est coûteux, source de frustrations opérationnelles et d'insatisfaction client
-- Des millions de trajets sont effectués chaque jour sans être exploités
-- Un modèle de cotransportage peut créer de la valeur économique et sociale à partir de ces trajets existants
+Le portefeuille de produits Shopopop est au service d'un système cohérent, structuré autour de **4 missions** :
+
+1. **Créer la confiance** — pour les enseignes qui externalisent un maillon critique de leur promesse client, pour les destinataires qui attendent une livraison fiable et solidaire, pour les cotransporteurs qui s'engagent sur un service d'entraide.
+2. **Orchestrer la complexité** — arbitrer en temps réel entre demande, capacité, contraintes terrain et qualité de service ; absorber les aléas du réel sans dégrader l'expérience.
+3. **Transformer la donnée en avantage compétitif** — capitaliser sur 10+ ans de données propriétaires, apprendre en continu pour améliorer le matching, la fiabilité, la marge et l'impact social.
+4. **Rendre le modèle scalable** — sans multiplier les coûts fixes, sans industrialiser à outrance, en restant fidèle à un modèle de plateforme responsable.
 
 **Boussole produit :** chaque produit, chaque initiative, chaque investissement doit répondre à :
 > Est-ce que cela nous rapproche d'une plateforme de cotransportage plus fiable, plus efficace et plus responsable, à grande échelle ?
 
 ## Axes stratégiques
 
-Trois axes structurants guident la roadmap produit :
+Trois axes structurants guident la roadmap produit. Ils répondent à la stratégie globale de l'entreprise (cf. Shopopoint juillet 2025). Les initiatives multi-axes sont valorisées et priorisées.
 
 | Axe | Description | Contribution entreprise |
 |---|---|---|
 | 🚀 **Scale with UX** | Expérience utilisateur simple et personnalisée pour stimuler adoption, rétention et marge | Maximiser la performance économique |
 | 📊 **Data monetization** | Exploiter la data propriétaire (10+ ans) pour créer de la valeur business | Accélérer la croissance par diversification des revenus |
 | 🧩 **Model fit** | Aligner les produits avec le standard du cotransportage, rendre visible notre différence | Refonte opérationnelle garante de conformité |
+
+## Principes d'alignement entre produits
+
+| Principe | Description |
+|---|---|
+| 🧠 **Vision commune** | Chaque produit est un maillon d'un écosystème, pas un silo autonome. |
+| 🌐 **Contribution transverse** | Une initiative locale doit créer de la valeur globale. |
+| 🧮 **Priorité au modèle** | Ce qui renforce le cotransportage est prioritaire, même si cela demande un effort cross-team. |
+| 🎯 **Alignement stratégique** | Chaque initiative doit répondre à au moins un des trois axes stratégiques, idéalement plusieurs. |
+
+## Enablers
+
+Initiatives à faible impact business direct mais nécessaires (réglementaire, UX, contractuel, organisationnel). Ils sont rendus visibles dans la roadmap, time-boxés, et justifiés par le "risque de ne pas faire".
 
 ## Fonctionnalités principales
 
