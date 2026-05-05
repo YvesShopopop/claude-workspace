@@ -7,9 +7,15 @@
       "complete": true
     },
     "2026-04": {
-      "inbound": 6224,
+      "inbound": 8715,
       "outbound": 0,
-      "fetched_at": "2026-04-23",
+      "fetched_at": "2026-05-05",
+      "complete": true
+    },
+    "2026-05": {
+      "inbound": 1416,
+      "outbound": 0,
+      "fetched_at": "2026-05-05",
       "complete": false
     }
   }
