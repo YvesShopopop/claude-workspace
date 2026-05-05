@@ -1,24 +1,22 @@
-# 🎯 Objectifs du jour — Vendredi 24 avril 2026
+# 🎯 Objectifs du jour — Lundi 4 mai 2026
 
 ## ⏳ Non atteints hier — à statuer
 
-_Aucun objectif en suspens._
+_Reporté dans les objectifs du jour : Définir les sujets principaux pour Q3 et Q4_
 
 ---
 
 ## 🔔 Rappels "Plus tard"
 
-- Prépa questions sur vision Produit / Desti (échu 2026-04-24)
-- Tester le plugin Productivity d'Anthropic (échu 2026-04-24)
-- Générer la doc utilisateur (échu 2026-04-24)
+- Demande Carrefour pour le comité Produit *(dû aujourd'hui)*
 
 ---
 
 ## ✅ Objectifs du jour
 
-- [x] 1. Prépa questions sur vision Produit / Desti
-- [x] 2. Tester le plugin Productivity d'Anthropic
-- [ ] 3. Générer la doc utilisateur
+- [ ] 1. Définir les sujets principaux pour Q3 et Q4
+- [ ] 2. Demande Carrefour pour le comité Produit
+- [ ] 3. Gestion des jours fériés pour les décalages
 
 ---
 
