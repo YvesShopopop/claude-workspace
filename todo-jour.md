@@ -1,22 +1,23 @@
-# 🎯 Objectifs du jour — Lundi 4 mai 2026
+# 🎯 Objectifs du jour — Jeudi 7 mai 2026
 
 ## ⏳ Non atteints hier — à statuer
 
-_Reporté dans les objectifs du jour : Définir les sujets principaux pour Q3 et Q4_
+- Définir les sujets principaux pour Q3 et Q4 → **reporté**
+- Gestion des jours fériés pour les décalages → **supprimé**
+- Tickets communications pour client absent → **reporté**
 
 ---
 
 ## 🔔 Rappels "Plus tard"
 
-- Demande Carrefour pour le comité Produit *(dû aujourd'hui)*
+_Aucun rappel pour aujourd'hui._
 
 ---
 
 ## ✅ Objectifs du jour
 
 - [ ] 1. Définir les sujets principaux pour Q3 et Q4
-- [ ] 2. Demande Carrefour pour le comité Produit
-- [ ] 3. Gestion des jours fériés pour les décalages
+- [ ] 2. Tickets communications pour client absent
 
 ---
 
