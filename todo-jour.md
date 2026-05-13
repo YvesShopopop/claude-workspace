@@ -1,23 +1,26 @@
-# 🎯 Objectifs du jour — Jeudi 7 mai 2026
+# 🎯 Objectifs du jour — Mercredi 13 mai 2026
 
 ## ⏳ Non atteints hier — à statuer
 
 - Définir les sujets principaux pour Q3 et Q4 → **reporté**
-- Gestion des jours fériés pour les décalages → **supprimé**
-- Tickets communications pour client absent → **reporté**
+- Réserver du temps pour tester les comptes destinataires → **déplacé vers plus tard (18/05)**
 
 ---
 
 ## 🔔 Rappels "Plus tard"
 
-_Aucun rappel pour aujourd'hui._
+- Objectifs : point de mi-trimestre → **reporté aujourd'hui**
+- Workflow destinataire → **reporté aujourd'hui**
+- Ticket cas d'erreur compte desti (Jess) → **reporté aujourd'hui**
 
 ---
 
 ## ✅ Objectifs du jour
 
 - [ ] 1. Définir les sujets principaux pour Q3 et Q4
-- [ ] 2. Tickets communications pour client absent
+- [x] 2. Objectifs : point de mi-trimestre
+- [x] 3. Workflow destinataire
+- [x] 4. Ticket cas d'erreur compte desti (Jess)
 
 ---
 
