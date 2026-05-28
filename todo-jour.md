@@ -1,26 +1,25 @@
-# 🎯 Objectifs du jour — Mercredi 13 mai 2026
+# 🎯 Objectifs du jour — Jeudi 28 mai 2026
 
 ## ⏳ Non atteints hier — à statuer
 
-- Définir les sujets principaux pour Q3 et Q4 → **reporté**
-- Réserver du temps pour tester les comptes destinataires → **déplacé vers plus tard (18/05)**
+- Caler un point avec Valentine pour les signalements → reporté dans les objectifs du jour
+- Voir avec JM ce qu'ils vont faire pour CTP favori sur Q2 → supprimé
 
 ---
 
 ## 🔔 Rappels "Plus tard"
 
-- Objectifs : point de mi-trimestre → **reporté aujourd'hui**
-- Workflow destinataire → **reporté aujourd'hui**
-- Ticket cas d'erreur compte desti (Jess) → **reporté aujourd'hui**
+- Créer une epic pour l'opportunité "Donner des indications au CTP pour le stationnement" en revoyant le périmètre (cf discovery UX de Nolwenn) → reporté dans les objectifs du jour
 
 ---
 
 ## ✅ Objectifs du jour
 
-- [ ] 1. Définir les sujets principaux pour Q3 et Q4
-- [x] 2. Objectifs : point de mi-trimestre
-- [x] 3. Workflow destinataire
-- [x] 4. Ticket cas d'erreur compte desti (Jess)
+- [ ] 1. Caler un point avec Valentine pour les signalements
+- [ ] 2. Créer une epic pour l'opportunité "Donner des indications au CTP pour le stationnement" en revoyant le périmètre (cf discovery UX de Nolwenn)
+- [x] 3. Préparer un mémo rapide (bullet points) pour la réunion entre PM sur l'utilisation de l'IA — lister mes principaux use cases avec appréciation personnelle
+- [ ] 4. Impacts bugs CRM
+- [ ] 5. Lire CR Colruyt https://app.notion.com/p/shopopop/RDV-colruyt-discussion-Boekhandel-36e2c5c798168060a8dbef447359069f
 
 ---
 

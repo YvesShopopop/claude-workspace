@@ -6,8 +6,7 @@
 
 | Sujet | Date cible | Notes |
 |-------|-----------|-------|
-| Définir la vision produit pour Destinataire | 2026-05-15 | |
-| Réserver du temps pour tester les comptes destinataires | 2026-05-18 | |
-| Voir JM pour évoquer tous les sujets d'adhérence avec Data | 2026-05-18 | |
-| Prépa entretien mi-carrière | 2026-05-22 | |
+| Définir les sujets pour Q4 et après | 2026-05-31 | |
+| Caler point Comptes Desti avec JJ, Camille et Pierre | 2026-06-08 | 
+| Demander à Ludo des infos sur l'Albanie | 2026-06-01 | |
 | Objectifs 2026 : point d'avancement vers fin Q2 | 2026-06-15 | |
