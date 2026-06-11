@@ -5,8 +5,15 @@
 <!-- et remonte les items dont la date cible est dépassée ou atteinte. -->
 
 | Sujet | Date cible | Notes |
-|-------|-----------|-------|
-| Définir les sujets pour Q4 et après | 2026-05-31 | |
-| Caler point Comptes Desti avec JJ, Camille et Pierre | 2026-06-08 | 
-| Demander à Ludo des infos sur l'Albanie | 2026-06-01 | |
+|-------|------------|-------|
+| Modifications FAQ | 2026-06-11 | |
+| Positionnement Produit concernant l'IA | 2026-06-11 | |
+| Voir Pierre : doc fonctionnelle destinataire dans Notion | 2026-06-11 | |
+| Créer l'epic pour Ultimate | 2026-06-11 | |
 | Objectifs 2026 : point d'avancement vers fin Q2 | 2026-06-15 | |
+| Message d'absence mail et statut Slack | 2026-06-15 | |
+| Pour le point produit du mardi ajouter tous les sujets Q3 | 2026-06-15 | |
+| Caler un nouveau point avec Valentine pour l'étude des données SC | 2026-06-24 | |
+| Définir les sujets pour Q4 et après | 2026-06-26 | |
+| Améliorer les messages d'erreur pour Carrefour et Leclerc | 2026-06-26 | |
+| UX : interviews destinataires ? | 2026-07-07 | |

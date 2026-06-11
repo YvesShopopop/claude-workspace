@@ -13,9 +13,15 @@
       "complete": true
     },
     "2026-05": {
-      "inbound": 3891,
+      "inbound": 9600,
       "outbound": 0,
-      "fetched_at": "2026-05-12",
+      "fetched_at": "2026-06-09",
+      "complete": true
+    },
+    "2026-06": {
+      "inbound": 3015,
+      "outbound": 0,
+      "fetched_at": "2026-06-09",
       "complete": false
     }
   }
